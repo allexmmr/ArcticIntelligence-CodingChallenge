@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArcticIntelligence.TreeOfNodes", "ArcticIntelligence.TreeOfNodes\ArcticIntelligence.TreeOfNodes.csproj", "{95015491-BBCB-4C9D-B005-AE51C87790BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. TreeOfNodes", "1. TreeOfNodes", "{8C9898FA-6C08-475D-92E8-81714D11CAD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. ThreadPoolLibrary", "2. ThreadPoolLibrary", "{BED45EF3-C6BC-461D-BD51-5544FEA0973E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArcticIntelligence.ThreadPoolLibrary", "ArcticIntelligence.ThreadPoolLibrary\ArcticIntelligence.ThreadPoolLibrary.csproj", "{16FFC623-FD0D-439E-85E5-F5235D7CD410}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArcticIntelligence.TreeOfNodes.Test", "ArcticIntelligence.TreeOfNodes.Test\ArcticIntelligence.TreeOfNodes.Test.csproj", "{581FD185-96C9-4DBE-AB21-9DA611BD9478}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArcticIntelligence.ThreadPoolLibrary.Test", "ArcticIntelligence.ThreadPoolLibrary.Test\ArcticIntelligence.ThreadPoolLibrary.Test.csproj", "{32568673-2CD6-4BFB-98EB-DB4DB500E43A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95015491-BBCB-4C9D-B005-AE51C87790BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95015491-BBCB-4C9D-B005-AE51C87790BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95015491-BBCB-4C9D-B005-AE51C87790BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95015491-BBCB-4C9D-B005-AE51C87790BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16FFC623-FD0D-439E-85E5-F5235D7CD410}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16FFC623-FD0D-439E-85E5-F5235D7CD410}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16FFC623-FD0D-439E-85E5-F5235D7CD410}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16FFC623-FD0D-439E-85E5-F5235D7CD410}.Release|Any CPU.Build.0 = Release|Any CPU
+		{581FD185-96C9-4DBE-AB21-9DA611BD9478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{581FD185-96C9-4DBE-AB21-9DA611BD9478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{581FD185-96C9-4DBE-AB21-9DA611BD9478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{581FD185-96C9-4DBE-AB21-9DA611BD9478}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32568673-2CD6-4BFB-98EB-DB4DB500E43A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32568673-2CD6-4BFB-98EB-DB4DB500E43A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32568673-2CD6-4BFB-98EB-DB4DB500E43A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32568673-2CD6-4BFB-98EB-DB4DB500E43A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{95015491-BBCB-4C9D-B005-AE51C87790BE} = {8C9898FA-6C08-475D-92E8-81714D11CAD8}
+		{16FFC623-FD0D-439E-85E5-F5235D7CD410} = {BED45EF3-C6BC-461D-BD51-5544FEA0973E}
+		{581FD185-96C9-4DBE-AB21-9DA611BD9478} = {8C9898FA-6C08-475D-92E8-81714D11CAD8}
+		{32568673-2CD6-4BFB-98EB-DB4DB500E43A} = {BED45EF3-C6BC-461D-BD51-5544FEA0973E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {412C7374-7492-486C-982A-AC0FC5C5524B}
+	EndGlobalSection
+EndGlobal
